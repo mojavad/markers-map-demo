@@ -1,27 +1,69 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { StyleSheet, Text, Animated } from "react-native";
 
 const AnimatedPriceMarker = (props: any) => {
   const { amount, selected, style } = props;
+  const selectedAnim = useRef(new Animated.Value(0)).current;
+  let animation = Animated.loop(
+    Animated.sequence([
+      Animated.timing(selectedAnim, {
+        toValue: 4,
+        duration: 250,
+        useNativeDriver: true,
+      }),
+      Animated.timing(selectedAnim, {
+        toValue: 0,
+        duration: 250,
+        useNativeDriver: true,
+      }),
+    ])
+  );
 
-  const border = selected ? "#007a87" : "#D23F44";
-  const background = selected ? "#4da2ab" : "#FF5A5F";
+  useEffect(() => {
+    if (selected) {
+      animation.start();
+    } else {
+      animation.stop();
+    }
+  }, [selected]);
+  const background = selected ? "#d25000" : "#ed9042";
 
   return (
-    <Animated.View style={[styles.container, style]}>
+    <Animated.View
+      style={[
+        styles.container,
+        style,
+        {
+          transform: [{ translateY: selectedAnim }],
+        },
+        {
+          zIndex: selected ? 200 : 1,
+        },
+      ]}
+    >
       <Animated.View
         style={[
           styles.bubble,
           {
             backgroundColor: background,
-            borderColor: border,
           },
         ]}
       >
-        <Text style={styles.dollar}>$</Text>
-        <Text style={styles.amount}>{amount}</Text>
+        <Text style={styles.dollar}>£</Text>
+        <Text
+          style={[
+            styles.amount,
+            {
+              fontWeight: selected ? "bold" : "normal",
+            },
+          ]}
+        >
+          {amount}
+        </Text>
       </Animated.View>
-      <Animated.View style={[styles.arrowBorder, { borderTopColor: border }]} />
+      <Animated.View
+        style={[styles.arrowBorder, { borderTopColor: "#d25000" }]}
+      />
       <Animated.View style={[styles.arrow, { borderTopColor: background }]} />
     </Animated.View>
   );

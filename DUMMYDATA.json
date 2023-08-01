@@ -1,0 +1,82 @@
+[
+  {
+    "amount": 534,
+    "coordinate": { "latitude": 37.7907, "longitude": -122.4332 },
+    "id": 0,
+    "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHwxfHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "yawningHotel",
+    "stars": 3
+  },
+  {
+    "amount": 694,
+    "coordinate": { "latitude": 37.7881, "longitude": -122.4294 },
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHwyfHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "reasonableHotel",
+    "stars": 1
+  },
+  {
+    "amount": 86,
+    "coordinate": { "latitude": 37.7917, "longitude": -122.4314 },
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHwzfHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "jadedHotel",
+    "stars": 2
+  },
+  {
+    "amount": 321,
+    "coordinate": { "latitude": 37.7916, "longitude": -122.4291 },
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHw0fHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "alertHotel",
+    "stars": 1
+  },
+  {
+    "amount": 713,
+    "coordinate": { "latitude": 37.7889, "longitude": -122.4289 },
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHw1fHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "self-reliantHotel",
+    "stars": 2
+  },
+  {
+    "amount": 549,
+    "coordinate": { "latitude": 37.7917, "longitude": -122.4334 },
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHw2fHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "timelyHotel",
+    "stars": 4
+  },
+  {
+    "amount": 57,
+    "coordinate": { "latitude": 37.7862, "longitude": -122.4328 },
+    "id": 6,
+    "image": "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHw3fHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "modernHotel",
+    "stars": 1
+  },
+  {
+    "amount": 579,
+    "coordinate": { "latitude": 37.7864, "longitude": -122.4318 },
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHw4fHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "unfitHotel",
+    "stars": 2
+  },
+  {
+    "amount": 393,
+    "coordinate": { "latitude": 37.788, "longitude": -122.4292 },
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHw5fHxob3RlbCUyMHJvb218ZW58MHwwfHx8MTY5MDkwMDg5NXww&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "sugaryHotel",
+    "stars": 5
+  },
+  {
+    "amount": 611,
+    "coordinate": { "latitude": 37.7854, "longitude": -122.4313 },
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0ODMxNDN8MHwxfHNlYXJjaHwxMHx8aG90ZWwlMjByb29tfGVufDB8MHx8fDE2OTA5MDA4OTV8MA&ixlib=rb-4.0.3&q=80&w=1080",
+    "name": "meekHotel",
+    "stars": 5
+  }
+]
