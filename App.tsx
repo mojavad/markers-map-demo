@@ -130,7 +130,6 @@ const App = () => {
               key={marker.id}
               coordinate={marker.coordinate}
               onPress={() => {
-                setSelectedHotel(i);
                 carouselRef.current?.scrollTo({ index: i, animated: true });
               }}
             >

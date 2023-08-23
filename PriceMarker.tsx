@@ -79,19 +79,19 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignSelf: "flex-start",
     backgroundColor: "#FF5A5F",
-    paddingVertical: 2,
-    paddingHorizontal: 4,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
     borderRadius: 3,
     borderColor: "#D23F44",
     borderWidth: 0.5,
   },
   dollar: {
     color: "#fff",
-    fontSize: 10,
+    fontSize: 20,
   },
   amount: {
     color: "#fff",
-    fontSize: 13,
+    fontSize: 20,
   },
   arrow: {
     backgroundColor: "transparent",
